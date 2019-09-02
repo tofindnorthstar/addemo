@@ -28,15 +28,6 @@ public class ADUtils {
 
 
     public static NamingEnumeration<SearchResult> getSearchResult(LdapContext ctx,String searchFilter,String searchBase) throws NamingException {
-
-        /**
-         * @methodName: getSearchResult
-         * @description: TODO
-         * @param: [ctx, searchFilter, searchBase]
-         * @return: javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
-         * @throws:
-         * @date: 2019/8/31
-        **/
         //搜索控制器
         SearchControls searchCtls = new SearchControls();
         //创建搜索控制器
